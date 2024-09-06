@@ -9,7 +9,7 @@
 
 /* Estiliza o corpo da página */
 body {
-    background-image: linear-gradient(45deg, #003DFF, #185FFF, #4865AA, #3766D5, #4B5B80);
+    background-color: #8DAACE;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,7 +95,7 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF;
+    background: #282833;
     border-radius: 0.6rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -105,24 +105,31 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem;
-    color: #222831;
+    color: #000000;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none;
-    color: #30475E;
+    color: #000000;
     display: flex;
     margin-top: 1.5rem;
+}
+.item-resultado img {
+    width:20rem ;
+    height:auto ;
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-    color: rgb(117, 23, 206);
+    color: green;
 }
 
 /* Estiliza o rodapé da página */
 footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
     color: #000000;
     text-align: center;
     width: 100%;
