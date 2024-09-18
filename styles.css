@@ -34,7 +34,7 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #222831;
     text-align: center;
     letter-spacing: 0.4rem;
@@ -105,13 +105,13 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem;
-    color: #000000;
+    color:#8DAACE;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none;
-    color: #000000;
+    color: #8DAACE;
     display: flex;
     margin-top: 1.5rem;
 }
